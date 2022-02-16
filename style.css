@@ -1,0 +1,74 @@
+body {
+    background-color: green;
+}
+
+.container {
+    display: block;
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.wrapper {
+    display: flex;
+    width: 520px;
+    height: 740px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    position: absolute;
+    z-index: -100;
+
+}
+
+.card_place {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 140px;
+    margin: 15px;
+    background-color: white;
+    z-index: 10;
+}
+
+.card_value {
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 30px;
+        /* background-color: red; */
+        z-index: -3;
+        font-size: 30px;
+
+        
+}
+
+
+.card {
+    display: block;
+    width: 100px;
+    height: 140px;
+    background: url(icons/рубашка.png) no-repeat center;
+    background-size: 100px 140px;
+    /* margin: 15px; */
+    background-color: black;
+    z-index: -2;
+    position: absolute;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.opacity_true {
+    opacity: 0;
+}
+
+.btn {
+    margin-top: 750px;
+    margin-left: 165px;
+    position: absolute;
+    color: white;
+    display: none;
+}
